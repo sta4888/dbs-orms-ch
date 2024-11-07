@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+что то<br>
+
+{{user_photos}}<br>
+{% for user_photo in user_photos %}
+{{user_photo.image}}<br>
+{% endfor  %}
+<br>
+{{user_posts}}<br>
+{% for user_post in user_posts %}
+{{user_post}}<br>
+{% endfor  %}
+
+<br>
+{{all_objects }}<br>
+{{single_object}}<br>
+{{filtered_objects}}<br>
+{{chained_filters}}<br>
+{{excluded_objects}}<br>
+{{ordered_objects}}<br>
+{{count_objects}}<br>
+{{exists}}<br>
+{{photos_objects}}<br>
+
+</body>
+</html>

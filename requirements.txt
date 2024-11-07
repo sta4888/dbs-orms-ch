@@ -1,0 +1,6 @@
+# Django main
+Django==4.1.5
+Pillow
+django-seed
+psycopg2
+psycopg2-binary
